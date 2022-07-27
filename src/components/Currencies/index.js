@@ -6,7 +6,6 @@ import Currencie from './Currencie';
 function Currencies({ currenciesList, setCurrentCurrencyName, searchString, setSearchString, }) {
   function handleChange(event) {
     const newInputValue = event.target.value;
-    console.log(`On veut changer la valeur de searchString par : ${newInputValue}`);
     setSearchString(newInputValue);
   }
   return (
@@ -36,7 +35,6 @@ Currencies.propTypes = {
   currenciesList: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
-      // rate: PropTypes.number.isRequired,
     })
   ).isRequired,
   setCurrentCurrencyName: PropTypes.func.isRequired,

@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 
 function Currencie({ name, setCurrentCurrencyName }) {
   const handleClick = () => {
-    console.log('le clic fonctionne');
     setCurrentCurrencyName(name);
   };
   return (
