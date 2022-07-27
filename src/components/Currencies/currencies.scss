@@ -1,0 +1,45 @@
+.section_currencies {
+  background-color: whitesmoke;
+  
+  &--title {
+    padding: 0.8em;
+    font-weight: 700;
+    // border-bottom: 1px solid darkgray;
+    color: #BC5435;
+    font-size: 1.3rem;
+  }
+}
+
+.currencies {
+  width: 480px;
+  max-height: 300px;
+  overflow: hidden visible;
+  text-align: left;
+
+  &_filter {
+    margin-bottom: 2em;
+    padding: 0.3em;
+  }
+}
+
+.currencie_item {
+  padding: 1em;
+  border-bottom: 1px solid darkgray;
+  transition: ease-in-out 0.7s;
+  
+  &:hover {
+    background-color: #f1c5b6;
+    transition: ease-in-out 0.2s;
+  }
+
+  &--button {
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+    color: #BC5435;
+    font-size: 1.2rem;
+  }
+}
+
+
